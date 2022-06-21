@@ -13,7 +13,7 @@ feature 'User sign in' do
     end
 
     expect(page).to have_content user.email
-    expect(page).to have_content 'Login efetuado com sucesso.'
+    expect(page).to have_content 'aduhsad'
     expect(page).to have_link 'Sair'
     expect(page).not_to have_link 'Entrar'
   end
